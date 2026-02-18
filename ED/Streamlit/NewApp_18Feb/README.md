@@ -18,8 +18,11 @@ _____________
 Step:2:
 
 1] closed the App after the commit in Step-1
+
 2] reopened the app and updated it, added "Stem_testing_2.0"
+
 3] updated the ReadMe file
+
 4] Push it to GIT on the Branch "test_18Feb"and commit
 
 _____________
