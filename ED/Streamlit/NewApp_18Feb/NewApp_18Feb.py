@@ -3,7 +3,7 @@ import streamlit as st
 from snowflake.snowpark.context import get_active_session
 
 # Write directly to the app
-st.title(f"Example Streamlit App :balloon: {st.__version__}")
+st.title(f"  Streamlit App Stem_testing_2.0")
 st.write(
   """Replace this example with your own code!
   **And if you're new to Streamlit,** check
