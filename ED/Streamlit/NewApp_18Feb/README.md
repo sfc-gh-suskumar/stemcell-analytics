@@ -1,6 +1,6 @@
 Step:1: Create the App fro GIT file with code or empty file.
 
-1] Created a blank file NewApp_18Feb.py in Git
+1] Created a blank file NewApp_18Feb.py in Git or copy the code from the existing_APP and put that in .py file and place it in git
 
 2] From SiS "Create from repository" 
 
@@ -25,5 +25,27 @@ Step:2:
 
 4] Push it to GIT on the Branch "test_18Feb"and commit
 
+Observation: 
+1] App is created and updated
+
+
 _____________
+Next Step:
+
+1] Create a New DB in Snowflake for App Deployment to higher Env/PROD = DB, schema, roles etc
+
+2] Example DB = (STREAMLIT_APPS_PROD), Schema = TEAM_RND_PROD, Role = STREAMLIT_DEVELOPER_PROD
+
+3] do the merges in Git to have the Code base on Main branch for PROD movement
+
+4] Create new app from the main branch in PROD REPO
+
+5] Create New APP using SiS "Create from repository" 
+
+6] Point to teh newly Created and Defined PROD-DB/Schema + PROD_Repo location
+
+7] Use the MAIN Branch to fetch the APP that was created, merged to mainBranch for deployment as in [3] 
+
+
+
 
