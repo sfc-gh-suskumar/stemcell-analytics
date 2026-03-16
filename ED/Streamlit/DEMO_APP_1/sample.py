@@ -4,7 +4,7 @@ import streamlit as st
 from snowflake.snowpark.context import get_active_session
 
 # Write directly to the app
-st.title(f"New Demo Streamlit Demo_App_1")
+st.title(f"New Demo Streamlit Demo_App_2")
 st.write(
   """Replace this example with your own code!
   **And if you're new to Streamlit,** check
